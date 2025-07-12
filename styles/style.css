@@ -426,3 +426,7 @@ ul{
     display:flex;
     justify-content: space-between;
 }
+a.end{
+    text-decoration: none;
+    color:#8987A1;
+}
