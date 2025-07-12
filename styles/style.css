@@ -266,4 +266,62 @@ button:hover{
     font-size:16px;
     color:#B3B3B3;
 }
+/*What our users say part ends here*/
+/**/
+/**/
+/*Ready to focus better*/
+.closing{
+    width:1140px;
+    height:686.77px;
+    padding:71px 150px;
+    border:1px solid red;
+    margin-bottom: 92.33px;
+    background-color: white;
+}
+.closing-heading{
+    font-weight:bold;
+    font-size: 50px;
+    width: 516px;
+    height: 60px;
+    margin-right:312px;
+    margin-left:312px;
+    margin-bottom:20px;
+    border:1px solid black;
 
+}
+.closing-text{
+    width: 487px;
+    height:22px;
+    color:rgba(0, 0, 0,0.5);
+    font-size:16px;
+    font-weight: 400;
+    margin-left:326.5px;
+    margin-right:326.5px ;
+    margin-bottom:20px;
+    border: 1px solid red;
+}
+.button-c{
+    padding-left: 508.5px;
+    padding-right: 508.5px;
+}
+.button-new{
+    font-weight: 400;
+    text-align:center;
+    font-size: 16px;
+    background-color:#4E47FF;
+    color:white;
+    width: 195px;
+    height:48px;
+    padding:12px 36px;
+    border-radius: 10px;
+    border:none;
+    display:inline-block;
+}
+.pic{
+    width: 840px;
+    height:364.77px;
+    border-radius: 48px;
+    border:1px solid red;
+    margin:20px 150px 0px 150px;
+    overflow: hidden;
+}
