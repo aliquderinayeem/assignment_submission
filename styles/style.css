@@ -331,34 +331,58 @@ button:hover{
     width:1140px;
     height:632px;
     display:flex;
-    border: 1px solid red;;
-
+    padding-bottom: 71px;
+    padding-top: 71px;
+    border: 1px solid red;
+    margin:0px 149px 13px 151px;
 }
 .feedback-heading{
     max-width:528px;
     height:232px;
     font-weight: bolder;
     font-size:97px;
-    margin: 200px 0px 200px 0px;
+    margin: 129px 0px 129px 0px;
     border:1px solid rgb(182, 115, 14);
 }
 .feedback-form{
     width:497px;
-    height: 490px;
-    margin:71px 0px 71px auto;
-    border:2px solid red;
+    height:490px;
+    margin:0px 0px 19px 115px;
+    border:2px solid rgb(0, 255, 115);
+}
+.button-touch{
+    font-weight: bold;
+    text-align:center;
+    font-size: 16px;
+    background-color:#4E47FF;
+    color:white;
+    width: 497px;
+    height:62px;
+    padding:19px 101px;
+    border-radius: 10px;
+    border:none;
+    display:inline-block;
 }
 /**/
 /**/
 /*input form css*/
+.label{
+    font-weight:500;
+    font-size: 18px;
+}
 input[type="text"]{
     width:497px;
     height:70px;
     border:1px solid rgba(128, 128, 128,0.5);
     border-radius:10px;
-    padding-top:20px;
-    padding-bottom:20px;
-    padding-left:32px;
+    padding:20px 32px 20px 32px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom:19px;
+}
+#email::placeholder{
+    font-size:20px;
+    padding:20px 271px 20px 32px;
 }
 /**/
 /**/
@@ -376,7 +400,7 @@ input[type="text"]{
     font-size: 100px;
     color: #4E47FF;
     margin:104px 575px 8px 574px;
-      border:1px solid black;
+    border:1px solid black;
 }
 .footer-text{
     width:531px;
