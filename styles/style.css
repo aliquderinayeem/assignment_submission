@@ -1,6 +1,7 @@
 body{
     max-width:1440px;
     margin:0 auto;
+    background-color: #F5F8FF;
 }
 /*fonts*/
 .inter {
@@ -97,7 +98,7 @@ button:hover{
 /*action part started*/
 .div-action{
     width: 1140px;
-    height:328px;
+    max-height:328px;
     margin:116px 159px 116px 141px;
     display:flex;
 }
@@ -152,13 +153,12 @@ button:hover{
     border-radius:24px;
     padding-top:50px;/*border-collapsing if user section don't have a border*/
 }
-.p-user-sec-hing{
+.p-user-sec-h_ing{
     width:856px;
     height:45px;
     font-size:38px;
     font-weight:bold;
     color:#252432;
-    border:1px solid red;
     text-align:center;
     margin:0px 142px 40px 142px;
 }
@@ -167,22 +167,61 @@ button:hover{
     height:121px;
     margin:0px 142px 50px 142px;
     display:flex;
+    gap:158px;
 }
 .p-user-sec-end{
     width:180px;
-    height:121px;
-    font-weight:bold;
+}
+.p-title{
     color:#4E47FF;
-    border:1px solid black;
-    margin:10px 142px 50px 142px;
-}
-.p-user-sec-end-title{
-    width:162px;
-    height:97px;
-    font-weight: bold;
+    font-weight: 850;
     font-size:80px;
+    text-align: center;
 }
-.p-user-sec-end-text{
-
-
+.p-text{
+    font-weight:normal;
+    font-size:20px;
+    color:rgba(0, 0, 0, 0.5);
+    text-align:center;
+}
+/*section ends here*/
+/*/
+/*/
+/*What our users say*/
+.users-say{
+    width: 1140px;
+    height:342px;
+    border:2px solid green;
+    margin:0px 149px 137px 151px;
+    background-color: #F5F8FF;
+}
+.review-heading{
+    width:1140px;
+    height:49px;
+    font-weight: bold;
+    font-size:42px;
+    text-align:center ;
+    border:1px solid red;
+    margin-bottom:50px;
+}
+.review-cards-container{
+    width: 1140px;
+    height:243px;
+    border:1px solid rgb(0, 0, 0);
+    gap:20px;
+    display: flex;
+}
+.cards{
+    width:366.67px;
+    max-height:243px;
+    background-color: rgb(255, 255, 255);
+    border:1px solid #b90808;
+    border-radius:14px;
+    padding:24px;
+}
+.star{
+    display:flex;
+    width:116px;
+    height:20px;
+    border:1px dashed black;
 }
