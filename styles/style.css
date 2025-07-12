@@ -11,6 +11,12 @@
 /*font style end*/
 /**/
 /**/
+button:hover{
+    font-size:17px;
+    font-weight:bold;
+    background-color: #3cf018;
+    white-space: nowrap;
+}
 /*full banner part*/
 .header-class{
     background-image: url('../Assets/Hero-bg.png');
@@ -26,8 +32,7 @@
     text-align:center;
     width:1140px;
     height:151px;
-    margin:0px 150px 158px 150px;
-
+    margin:0px 150px 158px 150px
 }
 .logo{
     font-weight: 900 ;
@@ -48,6 +53,7 @@
     padding:12px 36px;
     border-radius: 10px;
     border:none;
+    display:inline-block;
 }
 .button-stay-focused{
     font-weight: bold;
@@ -60,7 +66,7 @@
     padding:12px 36px;
     border-radius: 10px;
     border:none;
-
+    display:inline-block;
 }
 .shared-button-a{
     margin:51.5px 152px 51.5px 0px;
@@ -69,7 +75,6 @@
     margin-top:37px;
     margin-right:365.5px;
     margin-left:365.5px;
-
 }
 .div-banner-bottom{
     height:237px;
@@ -91,6 +96,7 @@
     height:328px;
     margin:116px 159px 116px 141px;
     display:flex;
+    border:1px solid red;
 }
 .action-left{
     width:517px;
@@ -103,14 +109,14 @@
     height:49px;
     font-weight:bold;
     font-size:42px;
-    padding-bottom: 23px;
+    margin-bottom: 23px;
 }
 .action-left-text{
     width:517px;
     height:60px;
     font-size: 24px;
     color:#252432;
-    padding-bottom:23px;
+    margin-bottom:23px;
 }
 .button-live-launch{
     font-weight: bold;
@@ -123,6 +129,7 @@
     padding:12px 36px;
     border-radius: 10px;
     border:none;
+    display:inline-block;
 }
 .action-picture{
     width:403px;
@@ -137,15 +144,18 @@
 .productive-user-section{
     width:1140px;
     height:306px;
-    margin:0px 159px 137px 141px;
-    background-color: #4E47FF;
-    opacity:10%;
-    border:1px solid red;
+    margin:0px 149px 137px 151px;
+    background-color: rgba(78, 71, 255, 0.1);
     border-radius:24px;
+    padding-top:50px;/*border-collapsing if user section don't have a border*/
 }
 .productive-user-section-heading{
+    width:856px;
+    height:45px;
     font-size:38px;
     font-weight:bold;
     color:#252432;
-    margin:50px 142px 40px 142px;
+    border:1px solid red;
+    text-align:center;
+    margin:0px 142px 40px 142px;
 }
