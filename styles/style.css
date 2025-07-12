@@ -313,6 +313,7 @@ button:hover{
     width: 195px;
     height:48px;
     padding:12px 36px;
+    margin-bottom:0px;
     border-radius: 10px;
     border:none;
     display:inline-block;
@@ -329,11 +330,10 @@ button:hover{
 /*feedback form */
 .feedback{
     width:1140px;
-    height:632px;
+    max-height:632px;
     display:flex;
     padding-bottom: 71px;
     padding-top: 71px;
-    border: 1px solid red;
     margin:0px 149px 13px 151px;
 }
 .feedback-heading{
@@ -342,13 +342,11 @@ button:hover{
     font-weight: bolder;
     font-size:97px;
     margin: 129px 0px 129px 0px;
-    border:1px solid rgb(182, 115, 14);
 }
 .feedback-form{
     width:497px;
     height:490px;
     margin:0px 0px 19px 115px;
-    border:2px solid rgb(0, 255, 115);
 }
 .button-touch{
     font-weight: bold;
@@ -370,7 +368,7 @@ button:hover{
     font-weight:500;
     font-size: 18px;
 }
-input[type="text"]{
+input[type="text"],textarea{
     width:497px;
     height:70px;
     border:1px solid rgba(128, 128, 128,0.5);
@@ -379,10 +377,17 @@ input[type="text"]{
     box-sizing: border-box;
     margin-top: 10px;
     margin-bottom:19px;
+    display:inline-block;
 }
 #email::placeholder{
     font-size:20px;
     padding:20px 271px 20px 32px;
+    text-align:left;
+    vertical-align:top;
+}
+#textarea::placeholder{
+    font-size:20px;
+    padding:20px 32px 20px 32px;
 }
 /**/
 /**/
@@ -390,7 +395,7 @@ input[type="text"]{
     width:1440px;
     height:428px;
     background-color: white;
-    border:1px solid rgb(170, 162, 162);
+    border:1px solid rgba(189, 189, 189,0.5);
 
 }
 .footer-heading{
@@ -400,20 +405,19 @@ input[type="text"]{
     font-size: 100px;
     color: #4E47FF;
     margin:104px 575px 8px 574px;
-    border:1px solid black;
 }
 .footer-text{
     width:531px;
     height:48px;
     margin:0px 455px 20px 455px;
     text-align: center;
-    border:1px solid black;
+    color:#8987A1;
 }
 .footer-end{
     max-width:531px;
     height:48px;
     margin:0px 520px 103px 520px;
-    border:1px solid black;
+    color:#8987A1;
 }
 ul li{
     list-style:none;
