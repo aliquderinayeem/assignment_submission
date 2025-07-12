@@ -272,11 +272,11 @@ button:hover{
 /*Ready to focus better*/
 .closing{
     width:1140px;
-    height:686.77px;
+    max-height:686.77px;
     padding:71px 150px;
-    border:1px solid red;
     margin-bottom: 92.33px;
     background-color: white;
+    border-radius: 14px;
 }
 .closing-heading{
     font-weight:bold;
@@ -286,7 +286,6 @@ button:hover{
     margin-right:312px;
     margin-left:312px;
     margin-bottom:20px;
-    border:1px solid black;
 
 }
 .closing-text{
@@ -298,11 +297,10 @@ button:hover{
     margin-left:326.5px;
     margin-right:326.5px ;
     margin-bottom:20px;
-    border: 1px solid red;
 }
 .button-c{
-    padding-left: 508.5px;
-    padding-right: 508.5px;
+    padding-left:472.5px;
+    padding-right:472.5px;
 }
 .button-new{
     font-weight: 400;
@@ -321,7 +319,6 @@ button:hover{
     width: 840px;
     height:364.77px;
     border-radius: 48px;
-    border:1px solid red;
     margin:20px 150px 0px 150px;
     overflow: hidden;
 }
