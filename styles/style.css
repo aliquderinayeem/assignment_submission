@@ -191,7 +191,6 @@ button:hover{
 .users-say{
     width: 1140px;
     height:342px;
-    border:2px solid green;
     margin:0px 149px 137px 151px;
     background-color: #F5F8FF;
 }
@@ -201,13 +200,11 @@ button:hover{
     font-weight: bold;
     font-size:42px;
     text-align:center ;
-    border:1px solid red;
     margin-bottom:50px;
 }
 .review-cards-container{
     width: 1140px;
     height:243px;
-    border:1px solid rgb(0, 0, 0);
     gap:20px;
     display: flex;
 }
@@ -215,7 +212,6 @@ button:hover{
     width:366.67px;
     max-height:243px;
     background-color: rgb(255, 255, 255);
-    border:1px solid #b90808;
     border-radius:14px;
     padding:24px;
 }
@@ -223,5 +219,51 @@ button:hover{
     display:flex;
     width:116px;
     height:20px;
-    border:1px dashed black;
 }
+.card-heading{
+    width:221px;
+    height:29px;
+    font-weight:600;
+    font-size:24px;
+    text-align:left;
+    margin-top:24px;
+    margin-bottom: 8px;
+}
+.card-text{
+    width:318.67px;
+    height:44px;
+    font-size: 16px;
+    font-weight:400;
+    margin-bottom: 24px;
+}
+.comment{
+    width:318.67px;
+    height:46px;
+    display: flex;
+
+}
+.image{
+    height: 40px;
+    width: 40px;
+    border-radius: 90%;
+    object-fit: cover;
+    overflow: hidden;
+    margin-bottom: 6px;
+}
+.r-name{
+    width:260px;
+    height:22px;
+    margin-left:12px ;
+    font-weight:600;
+    font-size:16px;
+    color:#757575;
+}
+.r-date{
+    width:260px;
+    height:22px;
+    margin-left:12px ;
+    font-weight:400;
+    font-size:16px;
+    color:#B3B3B3;
+}
+
