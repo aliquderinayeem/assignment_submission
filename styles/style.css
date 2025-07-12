@@ -97,7 +97,7 @@ button:hover{
 /**/
 /*action part started*/
 .div-action{
-    width: 1140px;
+    width: 1440px;
     max-height:328px;
     margin:116px 159px 116px 141px;
     display:flex;
@@ -271,10 +271,12 @@ button:hover{
 /**/
 /*Ready to focus better*/
 .closing{
-    width:1140px;
-    max-height:686.77px;
-    padding:71px 150px;
+    max-width:1140px;
+    max-height:696.77px;
+    padding:71px 150px 71px 150px;
     margin-bottom: 92.33px;
+    margin-right: 149px;
+    margin-left:151px;
     background-color: white;
     border-radius: 14px;
 }
@@ -283,8 +285,8 @@ button:hover{
     font-size: 50px;
     width: 516px;
     height: 60px;
-    margin-right:312px;
-    margin-left:312px;
+    margin-right:162px;
+    margin-left:162px;
     margin-bottom:20px;
 
 }
@@ -294,13 +296,13 @@ button:hover{
     color:rgba(0, 0, 0,0.5);
     font-size:16px;
     font-weight: 400;
-    margin-left:326.5px;
-    margin-right:326.5px ;
+    margin-left:176.5px;
+    margin-right:176.5px ;
     margin-bottom:20px;
 }
 .button-c{
-    padding-left:472.5px;
-    padding-right:472.5px;
+    padding-left:322.5px;
+    padding-right:322.5px;
 }
 .button-new{
     font-weight: 400;
@@ -319,7 +321,7 @@ button:hover{
     width: 840px;
     height:364.77px;
     border-radius: 48px;
-    margin:20px 150px 0px 150px;
+    margin:20px 0px 0px 0px;
     overflow: hidden;
 }
 /**/
