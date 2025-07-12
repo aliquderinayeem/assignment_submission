@@ -325,3 +325,77 @@ button:hover{
     margin:20px 150px 0px 150px;
     overflow: hidden;
 }
+/**/
+/**/
+/*feedback form */
+.feedback{
+    width:1140px;
+    height:632px;
+    display:flex;
+    border: 1px solid red;;
+
+}
+.feedback-heading{
+    max-width:528px;
+    height:232px;
+    font-weight: bolder;
+    font-size:97px;
+    margin: 200px 0px 200px 0px;
+    border:1px solid rgb(182, 115, 14);
+}
+.feedback-form{
+    width:497px;
+    height: 490px;
+    margin:71px 0px 71px auto;
+    border:2px solid red;
+}
+/**/
+/**/
+/*input form css*/
+input[type="text"]{
+    width:497px;
+    height:70px;
+    border:1px solid rgba(128, 128, 128,0.5);
+    border-radius:10px;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:32px;
+}
+/**/
+/**/
+.footer{
+    width:1440px;
+    height:428px;
+    background-color: white;
+    border:1px solid rgb(170, 162, 162);
+
+}
+.footer-heading{
+    width:291px;
+    height:121px;
+    font-weight: 900 ;
+    font-size: 100px;
+    color: #4E47FF;
+    margin:104px 575px 8px 574px;
+      border:1px solid black;
+}
+.footer-text{
+    width:531px;
+    height:48px;
+    margin:0px 455px 20px 455px;
+    text-align: center;
+    border:1px solid black;
+}
+.footer-end{
+    max-width:531px;
+    height:48px;
+    margin:0px 520px 103px 520px;
+    border:1px solid black;
+}
+ul li{
+    list-style:none;
+}
+ul{
+    display:flex;
+    justify-content: space-between;
+}
