@@ -9,6 +9,9 @@
   font-optical-sizing: auto;
 }
 /*font style end*/
+/**/
+/**/
+/*full banner part*/
 .header-class{
     background-image: url('../Assets/Hero-bg.png');
     background-size: cover;
@@ -16,16 +19,7 @@
     width:1440px;
     height:698px;
 }
-/*.padding-nav{
-padding: 0 150px 0px 150px;
-padding-top:0;
-padding-left: 150px;
-padding-right:150px;
-width: 1140px;
-height:151px;
-display: flex;
-border:1px solid red;
-}*/
+/*top of banner part*/
 .nav-class{
     display:flex;
     text-align:center;
@@ -39,7 +33,7 @@ border:1px solid red;
     font-size: 34px;
     color: #4E47FF;
     width:99px;
-    height:53px;
+    height:51px;
     margin:50px 894px 50px 0px;
 }
 .button-sign-up{
@@ -68,7 +62,13 @@ border:1px solid red;
 
 }
 .shared-button-a{
-    margin:50px 0px 50px 0px;
+    margin:51.5px 152px 51.5px 0px;
+}
+.shared-button-b{
+    margin-top:37px;
+    margin-right:365.5px;
+    margin-left:365.5px;
+
 }
 .div-banner-bottom{
     height:237px;
@@ -81,7 +81,7 @@ border:1px solid red;
     font-size: 65px;
     font-weight: bolder;
 }
-.shared-button-b{
-    margin-top:37px;
-
-}
+/*banner part closed*/
+/**/
+/**/
+/*action part started*/
