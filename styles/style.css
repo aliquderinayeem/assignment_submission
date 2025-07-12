@@ -1,3 +1,7 @@
+body{
+    max-width:1440px;
+    margin:0 auto;
+}
 /*fonts*/
 .inter {
   font-family: "Inter", sans-serif;
@@ -96,7 +100,6 @@ button:hover{
     height:328px;
     margin:116px 159px 116px 141px;
     display:flex;
-    border:1px solid red;
 }
 .action-left{
     width:517px;
@@ -141,7 +144,7 @@ button:hover{
 /**/
 /**/
 /*productive user section*/
-.productive-user-section{
+.p-user-sec{
     width:1140px;
     height:306px;
     margin:0px 149px 137px 151px;
@@ -149,7 +152,7 @@ button:hover{
     border-radius:24px;
     padding-top:50px;/*border-collapsing if user section don't have a border*/
 }
-.productive-user-section-heading{
+.p-user-sec-hing{
     width:856px;
     height:45px;
     font-size:38px;
@@ -158,4 +161,28 @@ button:hover{
     border:1px solid red;
     text-align:center;
     margin:0px 142px 40px 142px;
+}
+.container{
+    width:856px;
+    height:121px;
+    margin:0px 142px 50px 142px;
+    display:flex;
+}
+.p-user-sec-end{
+    width:180px;
+    height:121px;
+    font-weight:bold;
+    color:#4E47FF;
+    border:1px solid black;
+    margin:10px 142px 50px 142px;
+}
+.p-user-sec-end-title{
+    width:162px;
+    height:97px;
+    font-weight: bold;
+    font-size:80px;
+}
+.p-user-sec-end-text{
+
+
 }
