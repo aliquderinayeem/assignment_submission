@@ -18,6 +18,7 @@
     background-repeat: no-repeat;
     width:1440px;
     height:698px;
+    margin:0px;
 }
 /*top of banner part*/
 .nav-class{
@@ -85,3 +86,66 @@
 /**/
 /**/
 /*action part started*/
+.div-action{
+    width: 1140px;
+    height:328px;
+    margin:116px 159px 116px 141px;
+    display:flex;
+}
+.action-left{
+    width:517px;
+    height:203px;
+    text-align:left;
+    margin:62.5px 220px 62.5px 0px;
+}
+.action-left-heading{
+    width:517px;
+    height:49px;
+    font-weight:bold;
+    font-size:42px;
+    padding-bottom: 23px;
+}
+.action-left-text{
+    width:517px;
+    height:60px;
+    font-size: 24px;
+    color:#252432;
+    padding-bottom:23px;
+}
+.button-live-launch{
+    font-weight: bold;
+    text-align:center;
+    font-size: 16px;
+    background-color:#4E47FF;
+    color:white;
+    width: 229px;
+    height:48px;
+    padding:12px 36px;
+    border-radius: 10px;
+    border:none;
+}
+.action-picture{
+    width:403px;
+    height:328px;
+    border-radius:48px;
+    background-image:url('../Assets/wc-big.png');
+}
+/*action part closed*/
+/**/
+/**/
+/*productive user section*/
+.productive-user-section{
+    width:1140px;
+    height:306px;
+    margin:0px 159px 137px 141px;
+    background-color: #4E47FF;
+    opacity:10%;
+    border:1px solid red;
+    border-radius:24px;
+}
+.productive-user-section-heading{
+    font-size:38px;
+    font-weight:bold;
+    color:#252432;
+    margin:50px 142px 40px 142px;
+}
